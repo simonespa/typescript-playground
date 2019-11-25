@@ -1,0 +1,23 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "Typescript playground",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonespa/typescript-playground.git"
+  },
+  "keywords": [],
+  "author": {
+    "name" : "Simone Spaccarotella",
+    "email" : "spa.simone@gmail.com",
+    "url" : "https://www.linkedin.com/in/simonespaccarotella"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/simonespa/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/simonespa/typescript-playground#readme"
+}
