@@ -1,2 +1,4 @@
+.coverage
+.jest_cache
 build
 node_modules
