@@ -1,7 +1,7 @@
 {
   "name": "typescript-playground",
   "version": "1.0.0",
-  "description": "Vanilla setup of a Typescript project.",
+  "description": "Vanilla setup of a Typescript project with Jest testing framework",
   "scripts": {
     "dev": "tsc --watch",
     "start": "ts-node",
