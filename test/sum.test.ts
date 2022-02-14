@@ -1,4 +1,4 @@
-import sum from '../src/sum';
+import sum from 'src/sum';
 
 test('basic', () => {
   const a = 3;

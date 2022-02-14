@@ -1,4 +1,3 @@
-// "outDir": "build",                                   /* Specify an output folder for all emitted files. */
 {
   "compilerOptions": {
     "baseUrl": "./",
@@ -11,7 +10,8 @@
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
+    "outDir": "build",
+    "noEmit": false,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
