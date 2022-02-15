@@ -35,3 +35,12 @@ or run it in watch mode
 ```
 npm run test:watch
 ```
+
+## References:
+
+- https://www.typescriptlang.org/docs/
+- https://www.typescriptlang.org/docs/handbook/intro.html
+- https://www.typescriptlang.org/play
+- https://kangax.github.io/compat-table/es6/
+- https://caniuse.com/
+- https://github.com/onionmccabbage/es-ts-Feb-2022
