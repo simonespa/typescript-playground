@@ -23,6 +23,6 @@
     // when they're updated a lot.
     "fallbackPolling": "dynamicPriority"
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "test/**/*.ts"]
 }
