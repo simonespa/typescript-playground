@@ -1,24 +1,18 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Custom Config",
   "compilerOptions": {
+    "outDir": "dist",
     "baseUrl": "./",
     "paths": {
       "src/*": ["src/*"]
     },
-    "target": "es5",
-    "lib": ["esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "build",
-    "noEmit": false,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "ES2017",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "esModuleInterop": true
   },
   "watchOptions": {
     // Use native file system events for files and directories
@@ -29,6 +23,6 @@
     // when they're updated a lot.
     "fallbackPolling": "dynamicPriority"
   },
-  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", "test/**/*.ts", "test/**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "test/**/*.ts"]
 }
