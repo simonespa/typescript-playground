@@ -44,3 +44,6 @@ npm run test:watch
 - https://kangax.github.io/compat-table/es6/
 - https://caniuse.com/
 - https://github.com/onionmccabbage/es-ts-Feb-2022
+- https://reactivex.io/
+- https://rxjs.dev/guide/overview
+- https://rxmarbles.com/

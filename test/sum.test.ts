@@ -1,7 +1,6 @@
 import sum from 'src/sum';
+import params from './sum.params';
 
-test('basic', () => {
-  const a = 3;
-  const b = 2;
-  expect(sum(a, b)).toBe(a + b);
+test.each(params)('sum($a, $b) to return $result', ({a, b, result}) => {
+  expect(sum(a, b)).toBe(result);
 });
