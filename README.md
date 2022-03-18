@@ -4,6 +4,8 @@ Vanilla setup of a Typescript project with Jest testing framework.
 
 This project setup a minimal Typescript and Jest configuration to get started coding and testing in a Node.js environment.
 
+I used this playground during the "TypeScript intermediate" BBC Academy course, adding exercises and code samples practiced during the training.
+
 ## How to use it
 
 Install all dependencies
@@ -18,7 +20,13 @@ To play around with the code and create your own stuff, run TS in watch mode in 
 npm run dev
 ```
 
-You can run a TypeScript module directly with `ts-node`
+You can build your code with
+
+```
+npm run build
+```
+
+Or execute a TypeScript module directly with `ts-node`
 
 ```
 npm start <path/to/the/file.ts>
