@@ -1,10 +1,8 @@
 # Typescript Playground
 
-Vanilla setup of a Typescript project with Jest testing framework.
+Playground for TypeScript exercises.
 
 This project setup a minimal Typescript and Jest configuration to get started coding and testing in a Node.js environment.
-
-I used this playground during the "TypeScript intermediate" BBC Academy course, adding exercises and code samples practiced during the training.
 
 ## How to use it
 

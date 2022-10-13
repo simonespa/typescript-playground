@@ -11,5 +11,6 @@ function* counter() {
 const theCounter = counter();
 
 rxjs.fromEvent(document, 'click')
+  .
   .pipe(rxjs.Operator.scan(count => count + 1, 0))
   .subscribe(() => console.log(`Clicked! ${theCounter.next().value}`));
